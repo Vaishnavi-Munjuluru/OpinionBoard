@@ -37,6 +37,7 @@ public List<Opinion> findAll(){
 	
 	public List<Opinion> findAllPublicOpinions()
 	{
+		//dev comment new
 		return opinionRepo.findOpinionsByIsPublic(true);
 	}
 

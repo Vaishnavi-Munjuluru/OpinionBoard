@@ -99,7 +99,6 @@ public class PersonServices implements UserDetailsService{
 	
 	public Person findPersonByUser(String userName)
 	{
-		//dev comment new
 		return personRepo.findDistinctPersonByUserName(userName);
 	}
 
