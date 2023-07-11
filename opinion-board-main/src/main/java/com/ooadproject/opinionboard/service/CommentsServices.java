@@ -25,6 +25,7 @@ public class CommentsServices {
 	
 	public List<Comments> findAll()
 	{
+		//comments new
 		return commnetsRepo.findAll();
 	}
 }
