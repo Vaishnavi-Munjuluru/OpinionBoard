@@ -44,6 +44,7 @@ public class FriendsServices {
 	}
 
 	public Friends findFidOfUserName(String userName) {
+		//friends comment
 		return friendsRepo.findFidByUserName(userName);
 	}
 }
